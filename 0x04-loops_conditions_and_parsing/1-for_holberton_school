@@ -1,8 +1,9 @@
-#!/bin/bash
+#!/bin/env bash
 #Script for displayingn "Holberton School" 10x
-i=1
-while [ $i -le 10 ]
-	do
-	echo "Holberton School"
-	((i=$i+1))
+for i in {0..9}
+do
+        echo "Holberton School"
 done
+i=$i
+
+
