@@ -1,0 +1,9 @@
+#!/bin/env bash
+#Using while loop to diplay "Holberton School" 10x 
+i=0
+while [ $i -le 10 ]
+        do
+        echo "Holberton School"
+        i=$((i+1))
+done
+
