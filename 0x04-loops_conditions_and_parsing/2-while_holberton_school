@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Using while loop to diplay "Holberton School" 10x 
-i=0
+i=1
 while [ $i -le 10 ]
         do
         echo "Holberton School"
