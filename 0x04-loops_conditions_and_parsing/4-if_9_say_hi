@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#Using a while and if loop to display different output on 9th line
+i=0
+while [ $i -lt 10 ]
+do
+    echo "Holberton School"
+
+((i++))
+if [[ "$i" == 8 ]]; then
+echo "Hi"
+fi
+done
