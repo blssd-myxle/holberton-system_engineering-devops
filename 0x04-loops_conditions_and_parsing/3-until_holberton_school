@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 #Using 'until' to diplay "holberton school" 10x
 i=1
 until [ $i -gt 10 ]
