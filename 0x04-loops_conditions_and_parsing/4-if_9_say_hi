@@ -6,7 +6,7 @@ do
     echo "Holberton School"
 
 ((i++))
-if [[ "$i" == 8 ]]; then
+if [[ "$i" == 9 ]]; then
 echo "Hi"
 fi
 done
