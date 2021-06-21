@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 #Script for displayingn "Holberton School" 10x
 for i in {0..9}
 do
