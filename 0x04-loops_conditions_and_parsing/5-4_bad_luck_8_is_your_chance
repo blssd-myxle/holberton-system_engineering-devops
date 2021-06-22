@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#Displaying 4 bad luck; 8 good luck;
+#Otherwise outputs "Holberton School" for 1 -10
+#Using while loop with if & elif
+m=1
+while [ "$m" -le 10 ]
+
+do
+if [[ "$m" == 4 ]]; then
+   echo "bad luck"
+
+elif [[ "$m" == 8 ]]; then
+     echo "good luck"
+
+else
+    echo "Holberton School"
+fi
+((m++))
+done
