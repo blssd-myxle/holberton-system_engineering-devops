@@ -26,7 +26,7 @@ case $m in
      ;;
 
 *)
-     echo"$m"
+     echo "$m"
      ;;
 
 esac
