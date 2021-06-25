@@ -5,28 +5,28 @@
 #On 17th time displays bad luck from Italy
 
 m=1
-while [ $m -lt 20 ]
+while [ $m -le 20 ]
       do
       ((m++))
 
 case $m in
 4)
-     echo $m
+     echo "4"
      echo "bad luck from China"
      ;;
 
 9)
-     echo $m
+     echo "9"
      echo "bad luck from Japan"
      ;;
 
 17)
-     echo $m
+     echo "17"
      echo "bad luck from Italy"
      ;;
 
 *)
-     echo $m
+     echo"$m"
      ;;
 
 esac
