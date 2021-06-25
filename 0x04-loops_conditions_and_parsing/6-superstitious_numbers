@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 #Display number 1-20;
 #On 4th time displays bad luck from China
 #On 9th time displays bad luck from Japan
