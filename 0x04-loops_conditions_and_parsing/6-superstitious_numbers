@@ -10,26 +10,24 @@ while [ $m -lt 20 ]
       ((m++))
 
 case $m in
-     4)
+4)
      echo $m
      echo "bad luck from China"
      ;;
 
-     9)
+9)
      echo $m
      echo "bad luck from Japan"
      ;;
 
-     17)
+17)
      echo $m
      echo "bad luck from Italy"
      ;;
 
-     *)
+*)
      echo $m
      ;;
 
 esac
-((m++))
-
 done
