@@ -4,8 +4,8 @@
 #On 9th time displays bad luck from Japan
 #On 17th time displays bad luck from Italy
 
-m=1
-while [ $m -le 20 ]
+m=0
+while [ $m -lt 20 ]
       do
       ((m++))
 
