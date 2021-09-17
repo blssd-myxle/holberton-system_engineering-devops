@@ -1,0 +1,2 @@
+#!/bin/bash
+sord -d | find /etc/passwd /home* -type d | uniq | less
