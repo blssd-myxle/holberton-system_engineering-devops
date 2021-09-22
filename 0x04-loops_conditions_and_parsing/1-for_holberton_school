@@ -3,7 +3,7 @@
 
 for i in {0..9}
     do
-    echo "Hello World"
+    echo "Holberton School"
 done
 i=$i
 

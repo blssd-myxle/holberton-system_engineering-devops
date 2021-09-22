@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Using 'until loop' to print "Holberton School" 10x; i=0; (0..9)
+
+i=0
+
+until [ $i -gt 10 ]
+do
+	echo "Holberton School"
+	((i++))
+done
