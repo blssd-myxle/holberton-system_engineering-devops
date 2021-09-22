@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Displaying 'Holberton School' 8x, then on 9th time displaying 'Holberton School' and 'hi' on new line
+
+for i in {0..10}
