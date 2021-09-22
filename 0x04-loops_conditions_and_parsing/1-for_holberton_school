@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Using for loop to display Holberton School 10x
+
+for i in {0..9}
+    do
+    echo "Hello World"
+done
+i=$i
+
