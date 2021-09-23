@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Using 'ps' command to show lists current running processes for all users
 # Also showing process hierarchy
-ps axu -H
+ps auxf
