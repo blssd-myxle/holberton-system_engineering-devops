@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 # Showing process information in a list format.
 
-ps -aux -H
-
+ps -axu -H
