@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Printing Holberton School 10x.
+# on #4 iteration, printing 'bad luck'.
+# on #8 iteration, printing good luck (based on Chinese culture)
+
+m=0
+while [ $m -lt 10 ]
+do
+    if [ $m = 3 ]; then
+	echo "bad luck"
+    elif [ $m = 7 ]; then
+	echo "good luck"
+    else
+	echo "Holberton School"
+    fi
+    ((m++))
+done
