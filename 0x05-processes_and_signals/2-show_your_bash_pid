@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Using previous task command, writing a Bash script that displays lines containing the bash word.
+# To get your bash PID
+
+ps aux | grep "bash"
