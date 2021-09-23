@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Printing pid and name without using command ps.
+
+pgrep -l bash
