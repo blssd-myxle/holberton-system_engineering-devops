@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Looping 1 - 100 to see if number is multiple of 3:fizz, 5:buzz or both FizzBuzz
+
+for m in {1..100}
+do
+	if ((m%3==0 && m%5==0))
+	then
+		echo "FizzBuzz"
+	elif ((m%3==0))
+	then
+		echo "Fizz"
+	elif ((m%5==0))
+	then
+		echo "Buzz"
+	else
+		echo "$m"
+	fi
+done
