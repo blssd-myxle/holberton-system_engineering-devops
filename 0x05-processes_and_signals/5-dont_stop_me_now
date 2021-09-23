@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Terminating file 4-to_infinity_and_beyond infinite loop
+# shellcheck disable=SC2009
+
+kill "$(pgrep -f 4-to_infinity_and_beyond)"
