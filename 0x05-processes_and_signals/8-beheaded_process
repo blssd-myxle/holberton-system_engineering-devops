@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# There can only be one, 7-highlander will be ended
+
+pkill -9 -f 7-highlander
