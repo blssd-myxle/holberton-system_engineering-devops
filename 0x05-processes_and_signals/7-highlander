@@ -2,10 +2,9 @@
 # Creating an infinite loop of 'To infinity and beyond.
 # Adding trap 'sigterm' to print "I am invincible!!!!" every time a terminate signal is run.
 
-i=0
-while ((i<1))
+trap "echo I am invincible!!!" SIGTERM
+while true;
 do
 	echo "To infinity and beyond"
 	sleep 2
-	trap "echo 'I am invincible!!!!'" SIGTERM
 done
