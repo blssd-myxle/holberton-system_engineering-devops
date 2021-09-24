@@ -2,4 +2,4 @@
 # Using pkill to stop a file
 # shellcheck disable=SC2009
 
-pkill -f 4-to_infinity_and_beyond
+pkill-9 "$(pgrep -f 4-to_infinity_and_beyond)"
